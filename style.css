@@ -16,12 +16,84 @@ body {
     text-align: center;
 }
 
+#container {
+    display: flex;
+}
+
 #internal-components {
-    float: left;
+    flex: 1; 
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
 }
 
 #external-components {
-    margin-left: 5%;
-    float: right;
+    flex: 1; /* Each container takes equal space */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
 }
+
+#internal-components-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+#external-components-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#internal-list, li {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+#external-list, li {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+#internal-components h4 {
+    margin-top: 0;
+}
+
+#external-components h4 {
+    margin-top: 0;
+}
+
+.motherboard {
+    text-align: center;
+}
+
+.CPU {
+    text-align: center;
+}
+
+.CPU-heatsink {
+    text-align: center;
+}
+
+.hard-drive {
+    text-align: center;
+}
+
+.optical-drive {
+    text-align: center;
+}
+
+
+
+
+
+
 
