@@ -91,7 +91,29 @@ body {
     text-align: center;
 }
 
+.floppy-drive {
+    text-align: center;
+}
 
+.RAM-modules {
+    text-align: center;
+}
+
+.SMPS-power-supply {
+    text-align: center;
+}
+
+.system-cooling-fan {
+    text-align: center;
+}
+
+.GPU {
+    text-align: center;
+}
+
+.sound-card {
+    text-align: center;
+}
 
 
 
