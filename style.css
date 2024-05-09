@@ -115,13 +115,33 @@ body {
     text-align: center;
 }
 
-#quiz {
-    text-align: center;
+#quiz-link,
+#quiz-answer {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Add transition effect for background color */
+    transition: background-color 0.3s ease;
+    flex: 1;
 }
 
-button {
-    background-color: aquamarine;
+#quiz-link:hover,
+#quiz-answer:hover {
+    background-color: #0056b3; /* Darker shade when hovered */
 }
+
+#link-button {
+    display: flex;
+}
+
+
 
 
 
