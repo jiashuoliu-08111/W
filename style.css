@@ -29,7 +29,7 @@ body {
 }
 
 #external-components {
-    flex: 1; /* Each container takes equal space */
+    flex: 1;
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 5px;
@@ -119,22 +119,21 @@ body {
 #quiz-answer {
     background-color: antiquewhite;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center; 
     font-size: 16px;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    /* Add transition effect for background color */
     transition: background-color 0.3s ease;
     flex: 1;
 }
 
 #quiz-link:hover,
 #quiz-answer:hover {
-    background-color: #0056b3; /* Darker shade when hovered */
+    background-color: #0056b3;
 }
 
 #link-button {
